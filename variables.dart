@@ -178,9 +178,9 @@ if(income>50000){
 
 
 RegExp passwordRegex = RegExp(r'^(?=.*[A-Z])(?=.*[a-z])(?=.*[0-9])(?=.*[!@#\$&*~]).{8,}$');
-print("Please Enter your password!");
+ print("Please Enter your password!");
 
-var passwordd=stdin.readLineSync()!;
+ var passwordd=stdin.readLineSync()!;
 
 if (passwordRegex.hasMatch(passwordd)) {
   print("Valid password!");
